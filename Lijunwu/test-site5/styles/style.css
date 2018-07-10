@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 550px;
+}
+
+#book {
+    float: left;
+    
+    margin: 5px 5px 0 3em;
+    width: 30px;
+    height: 30px;
+}
+
+#title {
+    float: left;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.nav {
+    margin: 0 40px;
+    height: 56px;
+}
+.nav_item {
+    float: right;
+    list-style: none;
+    margin: 0 10px;
+    width: 80px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+
+.nav_item a {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.nav_item u{
+    text-decoration: none;
+}
+
+.nav_item a:hover {
+    color: #DD2F2F;
+}
+
+.nav_item:hover {
+    border-bottom: 4px solid #e74f4d;
+}
+
+#login {
+    height: 56px;
+    cursor: pointer;
+}
+
+#login img {
+    width: 12px;
+    height: 15px;
+}
+
+#login u {
+    color: #DD2F2F;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+.section1{
+    width: 100%;
+    height: 941px;
+}
+
+.section1_image{
+    width: 100%;
+    height: 691px;
+    background-image: url("../images/life.png");
+}
+
+#head1 {
+    margin-left: 100px;
+    padding-top:250px;
+    
+    font-family: "Calibri Light";
+    font-size: 60px;
+    
+    color: white;
+}
+
+.word1 {
+    margin-left: 100px;
+    padding-top: 10px;
+    
+    font-size: 21px;
+    font-family: "Calibri Light";
+    line-height: 20px;
+    
+    color: white;
+}
+
+
+#start {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 100px;
+    border: none;
+    padding: 10px;
+    width: 330px;
+    height: 63px;
+    font-size: 30px;
+    text-align: center; 
+    color: #FFFFFF;
+    background-color: #e74f4d;
+    cursor: pointer;
+}
+
+
+
+.section1 list {
+    width: 100%;
+    height: 250px;
+}
+
+.section1 li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    height: 250px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.section1 li  img {
+    margin: 45px;
+}
+
+.section1 li  p{
+    border-right: 1px solid rgb(118, 119, 119);
+    padding: 0 80px 0 80px;
+    height: 52px;
+    font-size: 14px;
+    font-family: "SimHei";
+    line-height: 25px;
+    text-align: center;
+    color: rgb(118, 119, 119);
+}
+
+
+
+.section2{
+    width: 100%;
+    height: 1308px;
+    text-align: center;
+}
+
+.section2_title{
+    height: 360px;
+    background-color: #edecec;
+}
+.section2_book{
+    margin-top: 120px;
+    width: 91px;
+    height: 92px;
+}
+#section2_word{
+    padding-top:30px;
+    font-size: 54px;
+    font-family: "SimHei";
+    color: #8F8F8F;
+}
+.section2_search{
+    overflow: hidden;
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    background-image: url("../images/map.png");
+}
+.section2 h{
+    display: block;
+    margin: 53px auto 20px auto;
+    width:11em;
+    font-size: 21px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+}
+.section2 p {
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.section2_select {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 52px 0; 
+}
+
+.section2_select select,
+.section2_select button {
+    margin-left: 20px;
+    border: none;
+    width: 236px;
+    height: 36px;
+}
+
+.section2_select select{
+    padding-left: 10px;    
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("../images/ok.png") no-repeat scroll right 10px center transparent;
+    background-color: #ffffff;
+}
+
+.section2_select button {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color:#ffffff;
+    background-color: #BF4F49;
+    cursor: pointer;
+}
+
+.section2_activity {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    height: 606px;
+    background: #f8f8f8;
+}
+
+.section2_activity li {
+    list-style: none;
+    margin: 103px 18px 0 18px;
+}
+
+.city_image {
+    margin: 10px 0;
+    border: 1px solid #cecece;
+    padding: 10px;
+}
+
+.city_image img {
+    width: 203px;
+    height: 312px;
+}
+
+.section2_activity li h {
+    display: block;
+    margin: 5px auto;
+    height: 18px;
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    color: #000000;
+}
+
+.section2_activity li p {
+    font-family: "Microsoft YaHei";
+    font-size: 11px;  
+    color: #6D6E6E;
+}
+
+
+
+.section3{
+    width: 100%;
+    height: 1087px;
+}
+
+.section3_head{
+    height: 567px;
+}
+
+.head_item1{
+    float: left;
+    width: 851px;
+    height: 567px;
+    background-image: url("../images/newworld.png");
+}
+.head_item1 img{
+    float:right;
+    position: relative;
+    bottom: 170px;
+    margin-right: -3px;
+}
+
+#section3_word1{
+    margin: 100px 0 0 0;
+    font-size: 49.473px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color:#ffffff;
+}
+
+#section3_word2{
+    margin: 0;
+    font-size: 157.788px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #ffffff;
+}
+
+#section3_word3{
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #ffffff;
+}
+
+.head_item2 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 411.6px;
+    height: 567px;
+}
+.head_title{
+    font-size: 22px;
+    font-family: "黑体";
+    text-align: center;
+    color: #4F5255;
+}
+.head_paper{
+    margin: 20px auto;
+    width: 288px;
+    height: 120px;
+    font-size: 12px;
+    font-family: "SimSun";
+    line-height: 2.5em;
+    color: #aaaaaa;
+}
+.head_item2  button {
+    margin: 10px auto;
+    border: 1px solid #DD2F2F;
+    width: 103px;
+    height: 31px;
+    color: #DD2F2F;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.section3_foot{
+    height: 520px;
+}
+.foot_item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    height: 520px;
+    color: #ffffff;
+    background-color: #e74f4d;
+}
+.foot_item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    width: 34%;
+    height: 520px;
+    color: #000000;
+}
+
+.foot_item1 div,
+.foot_item2 div{
+    margin-top: 150px;
+}
+.foot_item1 p,
+.foot_item2 p{
+    margin: 5px auto;
+    font-size: 21px;
+    font-family: "SimHei";
+    text-align: center;
+}
+
+.foot_item1 hr {
+    margin: 35px auto;
+    border: none;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.foot_item2 hr {
+    margin: 35px auto;
+    border: none;
+    width: 50px;
+    height: 2px;
+    background-color: #aaaaaa;
+}
+.foot_item1 button {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 167px;
+    height: 41px;
+    font-size: 21px;
+    font-family: "SimHei";
+    text-align: center;
+    color: #ffffff;
+    background-color: #e74f4d;
+    cursor: pointer;
+}
+
+.foot_item2 button {
+    border: 1px solid #e74f4d;
+    border-radius: 10px;
+    width: 167px;
+    height: 41px;
+    font-size: 21px;
+    font-family: "SimHei";
+    text-align: center;
+    color: #e74f4d;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.foot_item3{
+    float: right;
+    width: 32.66%;
+    height: 520px;
+    background-image: url("../images/more-img.png");
+}
+.foot_item3 img{
+    margin: 264px 0 0 -3px;
+}
+
+
+
+.section4{
+    width: 100%;
+    height: 800px;
+}
+
+.section4_title{
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 1002px;
+    height: 250px;
+    text-align: center;
+}
+
+#section4_title1{
+    margin: 0px 0 10px 0;
+    font-size: 21px;
+    font-family: "SimHei";
+}
+
+.section4_title hr{
+    margin: 20px auto;
+    border: none;
+    width: 30px;
+    height: 2px;
+    background-color: #e74f4d;
+}
+
+#section4_title2{
+    margin: 0 auto;
+    width: 35em;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(170, 170, 170);
+}
+
+.section4_content{
+    margin: 0 auto;
+    width: 1002px;
+    height: 451px;
+}
+
+.section4_left{
+    float: left;
+    width: 364px;
+    height: 451px;
+}
+
+.section4_left p,
+.content{
+    font-size: 12px;
+    font-family: "SimSun";
+    line-height: 15px;
+    color: rgba(35, 24, 21, 0.6);
+}
+
+.section4_left h{
+    display: block;
+    margin:20px 0;
+    font-size: 14px;
+    font-family: "SimHei";
+    color: #4F4644;
+}
+
+.section4_left div{
+    width: 290px;
+}
+
+.section4_left div input{
+    position: relative;
+    z-index:2;
+    top:0;
+    left:0;
+    width:100%;
+    height: 25px;
+    opacity: 0;
+}
+
+.more{
+    float: right;
+    position: relative;
+    top: -33px;
+    left: -42px;
+    color: #C4C2C1;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.more_word {
+    float: right;
+    position: relative;
+    top: -30px;
+    left: 0;
+    font-size: 11px;
+    color: #74716F;
+}
+
+.more:after{
+    content:'>';
+}
+
+.section4_left div input:checked+.more{
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+input[type=checkbox]:checked~.content{
+    display: none;
+}
+
+.section4_right {
+    float: right;
+    width: 638px;
+    height: 451px;
+}
+
+.input_left{
+    float: left;
+    margin: 10px 5px 10px 0;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 20px;
+    width: 311px;
+    height: 40px;
+    background: #ededee;
+}
+
+.input_right{
+    float: right;
+    margin: 10px 0 10px 5px;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 20px;
+    width: 311px;
+    height: 40px;
+    background: #ededee;
+}
+
+.section4_right textarea {
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: none;
+    padding: 10px 0 0 20px;
+    width: 100%;
+    height: 124px;
+    background: #ededee;
+}
+
+.section4_right button {
+    margin:10px 0;
+    border: none;
+    width: 100%;
+    height: 40px;
+    background: #ededee;
+    cursor: pointer;
+}
+
+
+.contact {
+    box-sizing: border-box;
+    padding-top: 100px;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    background-color: #32353e;
+}
+
+.contact_title {
+    font-size: 21px;
+    font-family: "SimHei";
+    color: #ffffff;
+}
+
+.contact_word {
+    margin: 10px auto 30px auto;
+    width: 468px;
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #ffffff;
+}
+
+.contact div {
+    margin: 10px auto;
+    width: 510px;
+    height: 41px;
+}
+
+.contact input {
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 10px;
+    width: 430px;
+    height: 41px;
+}
+
+.contact button {
+    float: left;
+    border: none;
+    width: 80px;
+    height: 41px;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+    background-color: #6f7178;
+    cursor: pointer;
+}
+
+.contact img {
+    margin: 10px;
+}
+
+
+
+footer {
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: 100%;
+    height: 58px;
+    background-color: #2f2f38;
+}
+
+footer p {
+    float: left;
+    margin-left: 100px;
+    width: 8em;
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #ffffff;
+}
+
+footer button {
+    float: right;
+    border: none;
+    width: 11em;
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #ffffff;
+    background-color: #2f2f38;
+    cursor: pointer;
+}
